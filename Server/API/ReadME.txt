@@ -13,10 +13,19 @@ pip install uvicorn
 
 ## Usage
 
-```python
-from fastapi import FastAPI
-app = FastAPI()
-@app.get('/necessary_path/')
-async def operation(props):
-      #necessary function on props passed
+```in the terminal,
+run pip install uvicorn
+
+
+after it installs,
+
+run this command:
+uvicorn Server:app
+
+The Server should Run now.
+Click on the hyperlink shown in the terminal
+
+or type in your browser, http://127.0.0.1:8000/docs
+
+This is the front-end for all the api endpoints.
 ```
